@@ -1,14 +1,16 @@
-package service;
+package com.taskmanager.task_manager.service;
 
+
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import entity.Task;
-import exception.ResourceNotFoundException;
-import repository.TaskRepository;
+import com.taskmanager.task_manager.entity.Task;
+import com.taskmanager.task_manager.exception.ResourceNotFoundException;
+import com.taskmanager.task_manager.repository.TaskRepository;
 
-import java.util.List;
+
 
 @Service
 public class TaskServiceImpl implements TaskService {

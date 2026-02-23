@@ -1,14 +1,16 @@
-package controller;
+package com.taskmanager.task_manager.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import entity.Task;
-import service.TaskService;
+import com.taskmanager.task_manager.entity.Task;
+import com.taskmanager.task_manager.service.TaskService;
+
+
 
 import java.util.List;
 
-@RestController
+@RestController   
 @RequestMapping("/tasks")
 public class TaskController {
 

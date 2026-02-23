@@ -1,9 +1,10 @@
-package service;
+package com.taskmanager.task_manager.service;
 
 
 import java.util.List;
 
-import entity.Task;
+import com.taskmanager.task_manager.entity.Task;
+
 
 public interface TaskService {
 

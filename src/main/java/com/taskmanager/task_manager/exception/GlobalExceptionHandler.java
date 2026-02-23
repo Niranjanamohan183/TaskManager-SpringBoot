@@ -1,4 +1,4 @@
-package exception;
+package com.taskmanager.task_manager.exception;
 
 import org.springframework.web.bind.annotation.*;
 import org.springframework.http.*;

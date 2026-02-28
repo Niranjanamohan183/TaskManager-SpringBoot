@@ -18,7 +18,8 @@ public class Task {
 
     private String title;
     private String description;
-    private String status; // PENDING / COMPLETED
+    private String status; // PENDING / COMPLETED\
+    
 
     public Task() {}
 
